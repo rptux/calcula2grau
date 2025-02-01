@@ -1,0 +1,31 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Equações de 2º Grau</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Equações de 2º Grau (ax² + bx + c = 0) Elaborada por Prof.Ricardo Pradas</h1>
+        <label for="a">Coeficiente a:</label>
+        <input type="number" id="a" step="any">
+        
+        <label for="b">Coeficiente b:</label>
+        <input type="number" id="b" step="any">
+        
+        <label for="c">Coeficiente c:</label>
+        <input type="number" id="c" step="any">
+        
+        <button onclick="resolverEquacao()">Calcular</button>
+        
+        <p id="resultado">Resultado:</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
